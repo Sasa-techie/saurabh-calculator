@@ -18,19 +18,19 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AyushCalculator(),
+      home: const SaurabhCalculator(),
     );
   }
 }
 
-class AyushCalculator extends StatefulWidget {
-  const AyushCalculator({super.key});
+class SaurabhCalculator extends StatefulWidget {
+  const SaurabhCalculator({super.key});
 
   @override
-  State<AyushCalculator> createState() => _AyushCalculatorState();
+  State<SaurabhCalculator> createState() => _SaurabhCalculatorState();
 }
 
-class _AyushCalculatorState extends State<AyushCalculator> {
+class _SaurabhCalculatorState extends State<SaurabhCalculator> {
   var userInput = '';
   var answer = '';
 
